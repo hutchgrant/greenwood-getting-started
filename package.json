@@ -6,7 +6,7 @@
     "build": "greenwood build",
     "develop": "greenwood develop",
     "start": "npm run develop",
-    "serve": "rimraf ./public && npm run build && ws -d ./public"
+    "serve": "rimraf ./public && npm run build && cp ./admin -R ./public/admin && ws -d ./public"
   },
   "repository": {
     "type": "git",
