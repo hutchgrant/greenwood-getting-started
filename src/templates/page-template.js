@@ -20,7 +20,8 @@ class PageTemplate extends LitElement {
       <style>
         ${pageCss}
       </style>
-      
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
       METAELEMENT
 
       <div class='wrapper'>
